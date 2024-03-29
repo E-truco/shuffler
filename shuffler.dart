@@ -24,7 +24,7 @@ List<Card> shuffler(List<Card> deck, int amountOfDecks){
 
 void main(){
 
-  var deck = createDeck(["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"], ["Clubs", "Diamonds", "Spades", "Hearts"]);
+  var deck = deckgen(["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"], ["Clubs", "Diamonds", "Spades", "Hearts"]);
 
   var shuffledDeck = shuffler(deck, 1);
 
